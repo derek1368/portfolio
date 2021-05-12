@@ -118,6 +118,8 @@ function removeClass(element, name) {
 document.getElementById('all').addEventListener('click', filterSelection.bind(null, 'all'));
 document.getElementById('uiux').addEventListener('click', filterSelection.bind(null, 'uiux'));
 document.getElementById('javascript').addEventListener('click', filterSelection.bind(null, 'javascript'));
+document.getElementById('html').addEventListener('click', filterSelection.bind(null, 'html'));
+document.getElementById('vue').addEventListener('click', filterSelection.bind(null, 'vue'));
 
 
 function viewPortfolio(event) {
